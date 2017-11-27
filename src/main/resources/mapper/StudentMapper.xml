@@ -26,7 +26,7 @@
     <insert id="add1">
         insert into students(id,name,sal) values(1,'jack',7000)
     </insert>
-    
+
     <insert id="add2" parameterType="student">
         insert into students(id,name,sal) values(#{id},#{name},#{sal})
     </insert>
